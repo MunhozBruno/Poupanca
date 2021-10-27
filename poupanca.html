@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <p id="titulo">Minha Poupança $$$ <br /><br /></p>
+
+    <p id="saldo">Saldo: R$ </p>
+
+    <p id="acoes">
+      <input id="valor" />
+      <input type="button" value="Depósito" onclick="poupanca.depositar()" />
+      <input type="button" value="Saque" onclick="poupanca.sacar()" />
+      <input type="button" value="Extrato" onclick="poupanca.exibirExtrato()" />
+    </p>
+
+    <p id="extrato">Extrato:</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>

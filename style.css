@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(46, 45, 45);
+  padding: 5%;
+}
+
+#titulo {
+  background-color:rgb(229, 230, 231);
+  font-size: 50px;
+  font-weight: 800;
+  text-align:center;
+}
+
+#saldo {
+  background-color: lime;
+  font-size: 2em;
+}
+
+#extrato {
+  background-color: rgb(229, 230, 231);
+  font-size: 2em;
+}
